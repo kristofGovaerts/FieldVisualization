@@ -4,7 +4,7 @@ library(ggplot2)
 library(dplyr)
 library(colormap)
 
-options(shiny.maxRequestSize = 30*1024^2) #upload size = 30MB
+options(shiny.maxRequestSize = 60*1024^2) #upload size = 60MB
 
 vis_patterns <- c('series', '_MEAN', '_MAX', '_Q50')
 colors <- c(colormap()[1], colormap()[36], colormap()[72]) #the lowest, middle and highest colors of the viridis colormap
